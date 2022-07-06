@@ -13,9 +13,12 @@ public class Merger {
         for(int i:arrayB){
             listB.add(i);
         }
+
         ArrayList<Integer> listTotal = new ArrayList<Integer>();
         listTotal.addAll(listA);
         listTotal.addAll(listB);
+
+
         int[] newArray = new int[listTotal.size()];
         for(int i = 0; i< listTotal.size();i++){
             newArray[i] = listTotal.get(i);

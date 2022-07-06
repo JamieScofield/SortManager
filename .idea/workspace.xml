@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7c386b-a887-44db-9f58-0ac872e1e02e" name="Changes" comment="Added bubble sort to the interface.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Merger.java" afterDir="false" />
+    <list default="true" id="bb7c386b-a887-44db-9f58-0ac872e1e02e" name="Changes" comment="Added merge method to merge two arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Merger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656517372311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added merge method to merge two arrays">
+      <created>1656688820346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656688820346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added bubble sort to the interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bubble sort to the interface." />
+    <MESSAGE value="Added merge method to merge two arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added merge method to merge two arrays" />
   </component>
 </project>
