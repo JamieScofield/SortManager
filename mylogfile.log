@@ -1,0 +1,6 @@
+File Log: [INFO ] 2022-07-06 11:36:11,229 main <-My Logger-> - this is an info message
+File Log: [ERROR] 2022-07-06 16:06:15,544 main <-My Logger-> - You have got the error 
+java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+	at Merge.sortArray(Merge.java:26) ~[classes/:?]
+	at Controller.con(Controller.java:42) ~[classes/:?]
+	at Main.main(Main.java:16) ~[classes/:?]

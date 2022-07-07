@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        logger.info("this is an info message");
+        logger.info("Start of the application");
 
         Controller controller = new Controller();
         controller.con();
