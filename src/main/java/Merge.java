@@ -73,24 +73,4 @@ public class Merge implements Sorter {
 
 
 
-/*
-    public void mergeSort(int[] arrayToSort){
-        int left = arrayToSort[0];
-        int right = arrayToSort[arrayToSort.length-1];
-        int mid = left+right/2;
-
-        int n1 = mid - left + 1;
-        int n2 = right - mid;
-
-        int l[] = new int[n1];
-        int r[] = new int[n2];
-
-        for (int i = 0; i < n1; i++){
-            l[i] = arrayToSort[1+i];
-        }
-        for (int i = 0; i < n2; i++){
-            r[i] = arrayToSort[mid + 1 + i];
-        }
-    } */
-
 

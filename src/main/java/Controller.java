@@ -7,6 +7,7 @@ public class Controller {
     public void con() {
         boolean carryon = true;
         Sorter sort;
+        Sorter sort2;
         ArrayList<Integer> input = new ArrayList();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome, please input the numbers you want");
@@ -26,7 +27,7 @@ public class Controller {
         }
         System.out.println("The inputted array " + input);
         System.out.println("How do you want to sort the array?");
-        System.out.println("Bubble (b), Merge (m)");
+        System.out.println("Bubble (b), Merge (m), Tree sort (t)");
         String sorter = scanner.next();
 
         switch (sorter) {
@@ -36,11 +37,39 @@ public class Controller {
             case "m":
                 sort = new Merge();
                 break;
+            case "t":
+                sort = new TreeSort();
+                break;
             default:
                 sort = new Bubble();
         }
+        Timer timer = new Timer();
         sort.sortArray(inputarray);
         System.out.println(Arrays.toString(inputarray));
+        System.out.println("time taken for your sort was: "+ timer.calculateTime(sort,inputarray));
+        System.out.println("do you wish to compare your sort to other sorting algorithms (y/n)");
+        String q = scanner.next();
 
+        if("y".equals(q)){
+            System.out.println("what sorting algorithm do you want to compare with");
+            System.out.println("merge (m), bubble(b) or TreeSort(t)");
+            String s = scanner.next();
+
+            switch (s){
+                case "m":
+                    sort2 = new Merge();
+                    break;
+                case "b":
+                    sort2 = new Bubble();
+                    break;
+                case "t":
+                    sort2 = new TreeSort();
+                    break;
+                default:
+                    sort2 = new Bubble();
+            }
+            System.out.println("the compare time is: "+ timer.compareTime(sort,sort2,inputarray));
+
+        }
     }
 }

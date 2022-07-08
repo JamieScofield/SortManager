@@ -5,6 +5,10 @@ public class Bubble implements Sorter{
     public static Logger logger = LogManager.getLogger("My Logger");
     public int[] sortArray(int[] A) {
         try {
+        if(A.length == 0){
+            System.out.println("please enter a valid array");
+        } else {
+
             int n = A.length;
             for (int i = 0; i < n; i++) {
                 for (int j = 1; j < n; j++) {
@@ -15,6 +19,7 @@ public class Bubble implements Sorter{
                     }
                 }
             }
+        }
         } catch (Exception e){
             logger.error("You have got the error ", e);
         }

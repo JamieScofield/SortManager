@@ -12,4 +12,29 @@ public class Testing {
         int[] result = {1,2,3,4,5};
         Assertions.assertArrayEquals(result,bubble.sortArray(start));
     }
+
+
+    @Test
+    @DisplayName("Test merging arrays")
+    void mergeArrays(){
+        Merger merger = new Merger();
+        int[] arrayA = {1,2,3,4};
+        int[] arrayB = {5,6,7,8};
+        int[] arraySum = {1,2,3,4,5,6,7,8};
+        Assertions.assertArrayEquals(arraySum,merger.merge(arrayA,arrayB));
+    }
+
+    @Test
+    @DisplayName("Merge Test")
+    void mergeTest(){
+        Merge merge = new Merge();
+        int[] start = {5,4,3,2,1};
+        int[] result = {1,2,3,4,5};
+        Assertions.assertArrayEquals(result,merge.sortArray(start));
+    }
+
+
+
+
+
 }
