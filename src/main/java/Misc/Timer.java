@@ -1,3 +1,7 @@
+package Misc;
+
+import SortAlgorithms.Sorter;
+
 public class Timer {
 
     Sorter sort;

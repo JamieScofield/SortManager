@@ -1,6 +1,10 @@
+package SortAlgorithms;
+
+import SortAlgorithms.Sorter;
+
 import java.util.ArrayList;
 
-public class TreeSort implements Sorter{
+public class TreeSort implements Sorter {
 
 
 
@@ -21,7 +25,7 @@ public class TreeSort implements Sorter{
 
 
     //When calling a new tree it sets the root to null to make it a blank tree
-    TreeSort(){
+    public TreeSort(){
         root = null;
     }
 
@@ -34,6 +38,7 @@ public class TreeSort implements Sorter{
 
     // insert calls the method addkey to decide if the key will be stored on the left or the right hand side of the node
     public void insert(int key){
+
         root = addkey(root, key);
     }
     /*
@@ -57,7 +62,6 @@ public class TreeSort implements Sorter{
     public void sortingTree(Node root){
         if(root != null){
             sortingTree(root.left);
-            System.out.println(root.key);
             list.add(root.key);
             sortingTree(root.right);
         }
@@ -67,13 +71,13 @@ public class TreeSort implements Sorter{
     @Override
     public int[] sortArray(int[] arrayToSort) {
         list = new ArrayList<>();
-        System.out.println(list);
         makeTree(arrayToSort);
         sortingTree(root);
         int[] array = new int[list.size()];
         for(int i = 0; i < list.size(); i++){
             array[i] = list.get(i);
         }
+        System.out.println(list);
         return array;
     }
 }

@@ -1,7 +1,9 @@
+package SortAlgorithms;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Bubble implements Sorter{
+public class Bubble implements Sorter {
     public static Logger logger = LogManager.getLogger("My Logger");
     public int[] sortArray(int[] A) {
         try {

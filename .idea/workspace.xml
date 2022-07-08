@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7c386b-a887-44db-9f58-0ac872e1e02e" name="Changes" comment="fixed merge sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Timer.java" afterDir="false" />
+    <list default="true" id="bb7c386b-a887-44db-9f58-0ac872e1e02e" name="Changes" comment="added a timer so the user can compare each sorter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TreeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TreeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/mylogfile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/Merger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TreeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortAlgorithms/TreeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657189838284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added a timer so the user can compare each sorter">
+      <created>1657289034924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657289034925</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +167,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -173,6 +184,7 @@
     <MESSAGE value="Added merge method to merge two arrays" />
     <MESSAGE value="added log files" />
     <MESSAGE value="fixed merge sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed merge sort" />
+    <MESSAGE value="added a timer so the user can compare each sorter" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a timer so the user can compare each sorter" />
   </component>
 </project>

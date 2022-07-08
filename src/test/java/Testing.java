@@ -1,3 +1,6 @@
+import Misc.Merger;
+import SortAlgorithms.Bubble;
+import SortAlgorithms.Merge;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -5,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class Testing {
 
     @Test
-    @DisplayName("Bubble Test")
+    @DisplayName("SortAlgorithms.Bubble Test")
     void bubbleTest(){
         Bubble bubble = new Bubble();
         int[] start = {5,4,3,2,1};
@@ -25,7 +28,7 @@ public class Testing {
     }
 
     @Test
-    @DisplayName("Merge Test")
+    @DisplayName("SortAlgorithms.Merge Test")
     void mergeTest(){
         Merge merge = new Merge();
         int[] start = {5,4,3,2,1};

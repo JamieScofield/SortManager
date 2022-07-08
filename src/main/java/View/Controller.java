@@ -1,3 +1,11 @@
+package View;
+
+import Misc.Timer;
+import SortAlgorithms.Bubble;
+import SortAlgorithms.Merge;
+import SortAlgorithms.Sorter;
+import SortAlgorithms.TreeSort;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -27,7 +35,7 @@ public class Controller {
         }
         System.out.println("The inputted array " + input);
         System.out.println("How do you want to sort the array?");
-        System.out.println("Bubble (b), Merge (m), Tree sort (t)");
+        System.out.println("SortAlgorithms.Bubble (b), SortAlgorithms.Merge (m), Tree sort (t)");
         String sorter = scanner.next();
 
         switch (sorter) {
@@ -52,7 +60,7 @@ public class Controller {
 
         if("y".equals(q)){
             System.out.println("what sorting algorithm do you want to compare with");
-            System.out.println("merge (m), bubble(b) or TreeSort(t)");
+            System.out.println("merge (m), bubble(b) or SortAlgorithms.TreeSort(t)");
             String s = scanner.next();
 
             switch (s){
@@ -69,7 +77,6 @@ public class Controller {
                     sort2 = new Bubble();
             }
             System.out.println("the compare time is: "+ timer.compareTime(sort,sort2,inputarray));
-
         }
     }
 }
