@@ -13,3 +13,10 @@ This sorting algorithm recursively splits the chosen array until there are only 
 
 ![Alt text](https://github.com/JamieScofield/SortManager/blob/master/mergeSort.png "Merge sort")
 ![Alt text](https://github.com/JamieScofield/SortManager/blob/master/mergeSort2.png "Merge sort")
+
+## Tree sort
+
+This sorting algorithm takes the values of the inputted array and then sorts these into a binary tree. Once this is done it the collects the values (from left to right) and then returns these as a sorted array to the user. 
+A known problem with this program is the algorithm does not return a sorted array correctly so a hot fix in the time available is to produce these as a list. 
+
+![Alt text](
