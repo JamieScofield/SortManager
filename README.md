@@ -20,4 +20,5 @@ This sorting algorithm takes the values of the inputted array and then sorts the
 A known problem with this program is the algorithm does not return a sorted array correctly so a hot fix in the time available is to produce these as a list. 
 
 ![Alt text](https://github.com/JamieScofield/SortManager/blob/master/treesort.png "Tree Sort")
+![Alt text](https://github.com/JamieScofield/SortManager/blob/master/treesort2.png "Tree Sort")
 
