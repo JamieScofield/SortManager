@@ -11,4 +11,4 @@ This sorting algorithm involves iterating over the entire array and swapping eac
 
 This sorting algorithm recursively splits the chosen array until there are only in single or double digit arrays. These are then merged back together in a sorted array and returned back to the user. 
 
-!
+![Alt text](
