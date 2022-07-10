@@ -4,3 +4,11 @@ This program contains a sort manager to allow the user to sort a collection of i
 ## Bubble sort
 
 This sorting algorithm involves iterating over the entire array and swapping each value to the left if its smaller than the right value. This keeps on iterating until the end of the array.
+
+![Alt text](https://github.com/JamieScofield/SortManager/blob/master/image.png "Bubble code")
+
+## Merge Sort
+
+This sorting algorithm recursively splits the chosen array until there are only in single or double digit arrays. These are then merged back together in a sorted array and returned back to the user. 
+
+!
